@@ -1,0 +1,19 @@
+{
+  "name": "epwt/tusk",
+  "description": "Tusk is an HTTP server for PHP PSR-7 applications designed to only serve fast clients on low-latency, high-bandwidth connections and take advantage of features in Unix/Unix-like kernels.",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Aurimas Niekis",
+      "email": "aurimas.niekis@gmail.com"
+    }
+  ],
+  "require": {
+    "guzzlehttp/psr7": "^1.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "EPWT\\Tusk": ""
+    }
+  }
+}
